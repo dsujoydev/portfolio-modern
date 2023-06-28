@@ -7,7 +7,7 @@ import { MdWork } from "react-icons/md";
 export const Timeline = () => {
   return (
     <div>
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="grey">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
@@ -22,10 +22,10 @@ export const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">Ragnets Software LTD.</h4>
-          <p>Creative Direction, User Experience, Visual Design, Project Management, Team Leading</p>
+          <p> Designing and developing dynamic features, Project Management, Team Leading</p>
         </VerticalTimelineElement>
-      </VerticalTimeline>
-      <VerticalTimeline>
+        {/* </VerticalTimeline>
+      <VerticalTimeline> */}
         <VerticalTimelineElement
           position="right"
           className="vertical-timeline-element--work"
@@ -41,7 +41,7 @@ export const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-title"> Intern Front-End Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">Ragnets Software LTD.</h4>
-          <p>Creative Direction, User Experience, Visual Design, Project Management, Team Leading</p>
+          <p>Assisting senior web developers in the design and development of software</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

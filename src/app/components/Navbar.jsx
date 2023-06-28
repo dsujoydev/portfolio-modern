@@ -13,6 +13,7 @@ export default function Navbar() {
         </Link>
         <Link href="#">Projects</Link>
         <Link href="#">Contact</Link>
+        {/* <Link href="#">Experience</Link> */}
       </div>
     </nav>
   );

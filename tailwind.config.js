@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('/images/gradient-bg.jpg')",
         profile: "url('/images/me.jpg')",
+        mockup: "url('/images/sm.jpg')",
+        mockuptwo: "url('/images/store.jpg')",
+        mockupthree: "url('/images/phone.jpg')",
       },
     },
   },
