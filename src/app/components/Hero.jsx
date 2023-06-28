@@ -1,5 +1,6 @@
 import { Arima } from "next/font/google";
 const arima = Arima({ subsets: ["latin"], display: "swap" });
+import { FaInstagram } from "react-icons/fa6";
 
 export default function Hero() {
   return (
@@ -13,7 +14,9 @@ export default function Hero() {
         </p>
         <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
           <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto">Contact me</button>
-          <div>{/* social link  */}</div>
+          <div>
+            <FaInstagram fill="red" size={30} />
+          </div>
         </div>
       </div>
       <div className="h-[30rem] rounded-3xl p-8 bg-profile bg-cover bg-center" />
