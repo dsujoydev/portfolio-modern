@@ -20,9 +20,11 @@ export const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWork />}
         >
-          <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Ragnets Software LTD.</h4>
-          <p> Designing and developing dynamic features, Project Management, Team Leading</p>
+          <h3 className="text-xl">Front-End Developer</h3>
+          <h4 className="text-base">Ragnets Software LTD.</h4>
+          <p className="text-sm">
+            Designing and developing dynamic features with React, Project Management, Team Leading
+          </p>
         </VerticalTimelineElement>
         {/* </VerticalTimeline>
       <VerticalTimeline> */}
@@ -39,9 +41,63 @@ export const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWork />}
         >
-          <h3 className="vertical-timeline-element-title"> Intern Front-End Developer</h3>
+          <h3 className="text-xl"> Intern Front-End Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">Ragnets Software LTD.</h4>
           <p>Assisting senior web developers in the design and development of software</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          position="left"
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(to left bottom, #dce7e3, #d9e9dd, #dde9d3, #e6e7c9, #f4e4c0)",
+            color: "black",
+            borderRadius: "10px",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="September 2023 - October 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="text-xl">Web Designer Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">Vicdigit Technologies Pvt. LTD</h4>
+          <p>Assisting senior web developers in the design and development of software</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          position="right"
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(to left bottom, #dce7e3, #d9e9dd, #dde9d3, #e6e7c9, #f4e4c0)",
+            color: "black",
+            borderRadius: "10px",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="February 2022 – April 2022"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="text-xl">Research Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Computing and Artificial Intelligence Lab</h4>
+          <p>Research, developement & Implementation on Deep Learning, Writer Identification</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          position="left"
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(to left bottom, #dce7e3, #d9e9dd, #dde9d3, #e6e7c9, #f4e4c0)",
+            color: "black",
+            borderRadius: "10px",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="June 2021 – December 2021"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="text-xl">Associate Researcher</h3>
+          <h4 className="vertical-timeline-element-subtitle">Advanced Machine Learning Lab, BUBT</h4>
+          <p>
+            Research & developement on Automatic Text Summarization, Brain-Computer Interface, Feature Selection, Plant
+            Disease Detection, Neurological Diseases
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
