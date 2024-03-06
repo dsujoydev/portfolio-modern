@@ -4,7 +4,7 @@ import { MdNorthEast } from "react-icons/md";
 const Projects = ({ name, description, imgUrl, bgColor, dark }) => {
   return (
     <div
-      className={`h-[30rem]  rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
+      className={`h-[30rem] rounded-3xl border border-slate-300 overflow-hidden ${dark ? "dark" : ""}`}
       style={{ background: `${bgColor}` }}
     >
       <div
