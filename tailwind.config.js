@@ -11,7 +11,7 @@ module.exports = {
         hero: "url('/images/gradient-bg.jpg')",
         profile: "url('/images/me.jpg')",
         mockup: "url('/images/sm.jpg')",
-        mockuptwo: "url('/images/store.jpg')",
+        mockuptwo: "url('/images/store.png')",
         mockupthree: "url('/images/phone.jpg')",
       },
     },

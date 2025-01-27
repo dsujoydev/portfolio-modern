@@ -1,7 +1,7 @@
 import React from "react";
 import { MdNorthEast } from "react-icons/md";
 
-const Projects = ({ name, description, imgUrl, bgColor, dark }) => {
+const Projects = ({ name, description, imgUrl, bgColor, dark, url }) => {
   return (
     <div
       className={`h-[30rem] rounded-3xl border border-slate-300 overflow-hidden ${dark ? "dark" : ""}`}
@@ -16,7 +16,9 @@ const Projects = ({ name, description, imgUrl, bgColor, dark }) => {
             <p className="text-zinc-500">{description}</p>
           </div>
           <div className="w-50 h-50 cursor-pointer">
-            <MdNorthEast size={40} />
+            <a href={url} target="_blank" rel="noreferrer">
+              <MdNorthEast size={40} />
+            </a>
           </div>
         </div>
       </div>
