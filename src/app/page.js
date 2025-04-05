@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import TechStack from "./components/TechStack";
 import { Timeline } from "./components/Timeline";
 
 export default function Home() {
@@ -14,6 +15,10 @@ export default function Home() {
 
       <section id="experience">
         <Timeline />
+      </section>
+
+      <section id="techstack">
+        <TechStack />
       </section>
     </main>
   );
