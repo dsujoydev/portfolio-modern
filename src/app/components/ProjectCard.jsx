@@ -5,7 +5,8 @@ const ProjectCard = ({ name, description, imgUrl, url, github, tags }) => {
     <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl transition-all duration-300 hover:shadow-2xl">
       <div className="aspect-video w-full overflow-hidden">
         <div
-          className={`h-full w-full transform bg-cover bg-center transition-all duration-500 group-hover:scale-110 ${imgUrl}`}
+          className="h-full w-full transform bg-cover bg-center transition-all duration-500 group-hover:scale-110"
+          style={{ backgroundImage: `url(${imgUrl})` }}
         />
       </div>
 
