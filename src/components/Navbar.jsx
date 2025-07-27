@@ -59,6 +59,9 @@ export default function Navbar() {
         <Link className="mr-4" href="#experiene" scroll={true}>
           Experience
         </Link>
+        <Link className="mr-4" href="#certifications" scroll={true}>
+          Certifications
+        </Link>
         <Link className="mr-4" href="#">
           Contact
         </Link>
