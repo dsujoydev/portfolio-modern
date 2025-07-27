@@ -1,7 +1,8 @@
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import TechStack from "./components/TechStack";
-import { Timeline } from "./components/Timeline";
+import Certifications from "@/components/Certifications";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import TechStack from "@/components/TechStack";
+import { Timeline } from "@/components/Timeline";
 
 export default function Home() {
   return (
@@ -17,8 +18,12 @@ export default function Home() {
         <Timeline />
       </section>
 
-      <section id="techstack">
+      <section id="techstack" className="py-16 bg-gray-50 dark:bg-gray-900">
         <TechStack />
+      </section>
+
+      <section id="certifications" className="py-16">
+        <Certifications />
       </section>
     </main>
   );

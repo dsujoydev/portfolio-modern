@@ -1,23 +1,11 @@
 export const projects = [
   {
     name: "HomeDoc",
-    description: "A healthcare platform designed to connect patients with healthcare professionals.",
+    description: "A healthcare platform designed to sell healthcare products.",
     imgUrl: "/homedoc.png",
-    url: "https://home-doc-mvp.vercel.app/",
+    url: "https://homedocdhaka.com/",
     github: "#",
-    tags: [
-      "NextJs",
-      "Tailwind CSS",
-      "TypeScript",
-      "PostgreSQL",
-      "Drizzle",
-      "Shadcn",
-      "Hono",
-      "Better-Auth",
-      "Zod",
-      "Resend",
-      "Uploadthing",
-    ],
+    tags: ["NextJs", "Tailwind CSS", "TypeScript", "PostgreSQL", "Drizzle", "Shadcn", "Better-Auth", "Zod", "Resend"],
   },
   {
     name: "Edge LMS",
