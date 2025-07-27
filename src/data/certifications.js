@@ -1,38 +1,35 @@
 export const certifications = [
   {
     id: 1,
-    title: "AWS Certified Solutions Architect - Associate",
-    issuer: "Amazon Web Services",
+    title: "React Hooks",
+    issuer: "EpicReact.dev by Kent C. Dodds",
     date: "2023",
     credentialUrl: "#",
-    skills: ["Cloud Architecture", "AWS Services", "Security", "Networking"],
-    description: "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements."
+    imageUrl: "/certifications/react-hooks.png",
+    skills: ["React Hooks", "use", "context", "useCallback", "useMemo", "useState", "useEffect", "reducer", "ref"],
+    description:
+      "Mastered React Hooks to build reusable and maintainable React components. Learned to manage state and side effects in function components, create custom hooks, and optimize performance with useMemo and useCallback.",
   },
   {
     id: 2,
-    title: "Google Cloud Professional Data Engineer",
-    issuer: "Google Cloud",
-    date: "2022",
+    title: "Advanced React Patterns",
+    issuer: "EpicReact.dev by Kent C. Dodds",
+    date: "2023",
     credentialUrl: "#",
-    skills: ["Data Processing", "Machine Learning", "BigQuery", "Data Pipelines"],
-    description: "Certified professionals design and build data processing systems and create machine learning models on Google Cloud. They are proficient in using Google Cloud technologies to derive business insights from data."
+    imageUrl: "/certifications/advanced-react-patterns.png",
+    skills: ["Custom Hooks", "Compound Components", "Render Props", "Context API", "Control Props", "State Reducer"],
+    description:
+      "Learned advanced React patterns to build flexible and reusable components. Covered compound components, render props, higher-order components, and the context API to create more maintainable and scalable React applications.",
   },
   {
     id: 3,
-    title: "Microsoft Certified: Azure Developer Associate",
-    issuer: "Microsoft",
+    title: "React Suspense",
+    issuer: "EpicReact.dev by Kent C. Dodds",
     date: "2023",
     credentialUrl: "#",
-    skills: ["Azure Services", "Cloud Development", "CI/CD", "Containers"],
-    description: "Azure Developer Associates design, build, test, and maintain cloud applications and services on Microsoft Azure. They participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance."
+    imageUrl: "/certifications/react-suspense.png",
+    skills: ["React Suspense", "Concurrent Mode", "Data Fetching", "Error Boundaries", "Code Splitting"],
+    description:
+      "Explored React's Suspense for data fetching and code splitting. Learned to implement error boundaries, create smooth loading states, and optimize application performance with concurrent features in React.",
   },
-  {
-    id: 4,
-    title: "Certified Kubernetes Administrator (CKA)",
-    issuer: "Cloud Native Computing Foundation",
-    date: "2023",
-    credentialUrl: "#",
-    skills: ["Kubernetes", "Containers", "Orchestration", "Cloud Native"],
-    description: "Certified Kubernetes Administrators (CKAs) have demonstrated the skills, knowledge, and competence to perform the responsibilities of Kubernetes administrators. They can perform basic installation as well as configuring and managing production-grade Kubernetes clusters."
-  }
 ];
