@@ -58,8 +58,8 @@ export const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWork />}
         >
-          <h3 className="text-xl">Research Engineer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Computing and Artificial Intelligence Lab</h4>
+          <h3 className="text-xl">Research Assistant</h3>
+          <h4 className="vertical-timeline-element-subtitle">Advanced Machine Intelligence Research Lab - AMIR Lab</h4>
           <p>Research, developement & Implementation on Deep Learning, Writer Identification</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -76,7 +76,7 @@ export const Timeline = () => {
           icon={<MdWork />}
         >
           <h3 className="text-xl">Research Associate Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">Advanced Machine Learning Lab, BUBT</h4>
+          <h4 className="vertical-timeline-element-subtitle">Advanced Machine Intelligence Research Lab - AMIR Lab</h4>
           <p>
             Research & developement on Automatic Text Summarization, Brain-Computer Interface, Feature Selection, Plant
             Disease Detection, Neurological Diseases
